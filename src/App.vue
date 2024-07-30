@@ -41,9 +41,9 @@ export default {
 <template>
   <div class=" bg-gray-50 min-h-screen flex justify-center px-16">
     <div class="relative w-full ">
-      <div class="fixed top-4 left-1/2 transform -translate-x-1/2 w-72 h-72 bg-red-300 rounded-full mix-blend-multiply opacity-50 filter animate-blob blur-2xl"></div>
-      <div class="fixed bottom-4 transform -translate-x-1/2 w-72 h-72 bg-green-300 rounded-full mix-blend-multiply opacity-50 filter animate-blob2  blur-2xl "> </div>
-      <div class="fixed bottom-4 right-4 transform -translate-x-1/2 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply opacity-50 filter animate-blob3 blur-2xl "> </div>
+      <div class="fixed left-[50%] top-[15%] transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-red-300 rounded-full mix-blend-multiply opacity-50 filter animate-blob blur-2xl"></div>
+      <div class="fixed left-[15%] top-[85%] transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-green-300 rounded-full mix-blend-multiply opacity-50 filter animate-blob2  blur-2xl "> </div>
+      <div class="fixed left-[85%] top-[85%] transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply opacity-50 filter animate-blob3 blur-2xl "> </div>
       <div class="flex flex-col items-center p-6 ">
         <img src="./assets/headshotFinal.png" class="object-cover rounded-full w-32 h-32 mb-4" alt="Adrian Villarreal" />
         <div class=" text-3xl font-extralight p-2 rounded-lg mb-2">Adrian Villarreal</div>
