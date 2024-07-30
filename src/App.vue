@@ -97,17 +97,17 @@ export default {
             </a>
           </div>
         </div>
-      <div class="flex flex-wrap justify-evenly max-w-screen mx-auto">
+      <div class="flex flex-wrap justify-evenly max-w-screen mx-auto mb-10">
         <div class="cards basis-1/2 max-w-sm rounded overflow-hidden shadow-lg m-4">
           <div class="relative px-6 py-4">
             <a href="https://vuejs.org/" target="_blank">
               <img src="https://upload.wikimedia.org/wikipedia/en/f/f6/UTRGV_Athletics_logo.svg" class="absolute right-0 w-16 h-16" alt="Python logo" />
             </a>
-            <div class="absolute text-gray-700 right-0 top-24"> Grad. July 2024</div>
+            <div class="absolute text-gray-500 right-0 top-24"> Grad. July 2024</div>
             <div class="font-bold text-xl -mb-2">University Of Texas </div>
             <div class="font-bold text-xl mb-1">Rio Grande Valley</div>
-            <p class="text-gray-700 max-w-48">
-              Bachelors Of Science - Computer Science
+            <p class="text-gray-500 italic max-w-48">
+              Bachelors Of Science Computer Science
             </p>
           </div>
           <div class="px-6 pt-4 pb-2">
@@ -117,54 +117,49 @@ export default {
             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Frontera Devs</span>
           </div>
         </div>
-        <div class="cards basis-1/2 max-w-sm rounded overflow-hidden shadow-lg m-4">
+        <div class="cards basis-1/2 max-w-sm rounded overflow-hidden shadow-lg m-4 ">
           <div class="relative px-6 py-4">
             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Best_Buy_logo_2018.svg" class="absolute object-cover right-0 w-17 h-10" alt="Python logo" />
             <div class="font-bold mb-2">Employment</div>
-            <h1 class="text-black text-base">
-              Geeksquad - Best Buy
-            </h1>
+            <h1 class="text-black text-sm italic">• Advanced Computer Technician </h1>
+            <p class="text-xs mb-2"> 2018-2024</p>
+            <h1 class="text-black text-sm italic">• IT Consultation / Support Technician</h1>
+            <p class="text-xs"> 2017-2018</p>
           </div>
+          <div class="flex justify-center  py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><div class="outline outline-1 outline-offset-1  rounded hover:bg-white p-0.5">More info</div></div>
         </div>
       </div>
       <div class="flex flex-wrap justify-evenly max-w-screen mx-auto">
-        <div class="cards basis-1/2 max-w-sm rounded overflow-hidden shadow-lg m-4">
+        <div class="cards basis-1/2 max-w-lg rounded overflow-hidden shadow-lg m-4">
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Project 1</div>
-            <p class="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            <div class="flex italic font-bold justify-center text-xl mb-2">Valley Markets</div>
+            <p class="flex font-light justify-evenly text-gray-700 text-base  ">
+              A dynamic marketplace platform connecting customers, local businesses, event hosts, and vendors. Built with React and Node.js, the application features secure user authentication and real-time data management using Firebase. Deployed on a reliable website for seamless user experience and showcase purposes.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          <div class="flex justify-center">
+            <div class="px-3"><div class="py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://seniorproject-vc6r.onrender.com/" target=”_blank” class="outline outline-1 outline-offset-1  rounded hover:bg-white p-0.5">Live Site</a></div></div>
+            <div class="px-3"> <div class="py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/adrianvill72/SeniorProject/tree/main/my-app/" target=”_blank” class="outline outline-1 outline-offset-1  rounded hover:bg-white p-0.5">GitHub</a></div></div>
           </div>
         </div>
-        <div class="cards basis-1/2 max-w-sm rounded overflow-hidden shadow-lg m-4">
+        <div class="cards basis-1/2 max-w-lg rounded overflow-hidden shadow-lg m-4">
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Project 2</div>
-            <p class="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            <div class="flex italic font-bold justify-center text-xl mb-2">Brain Tumor Segmentation</div>
+            <p class="flex font-light justify-evenly text-gray-700 text-base">
+              Developed a high-precision solution for medical image analysis, leveraging machine learning and deep learning techniques. Engineered and optimized CNN models using Python and PyTorch, achieving substantial improvements in segmentation accuracy.
             </p>
           </div>
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          <div class="flex justify-center bottom-1">
+            <div class="px-6 pt-4 pb-2"><div class="px-3 py-1 mr-2 mb-2 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/adrianvill72/SegmentationProject/" target=”_blank” class="outline outline-1 outline-offset-1  rounded hover:bg-white p-0.5">GitHub</a></div></div>
+
           </div>
         </div>
-        <div class="cards basis-1/2 max-w-sm rounded overflow-hidden shadow-lg m-4">
+        <div class="cards basis-1/2 max-w-lg rounded overflow-hidden shadow-lg m-4">
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Projet 3</div>
-            <p class="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            <div class="flex italic font-bold justify-center text-xl mb-2">Border Entry Analysis/Forecasting</div>
+            <p class="flex font-light justify-evenly text-gray-700 text-base">
+              Analyzed US border entry data from 1964 to 2024, including various modes of entry. Applied K-means clustering to identify traffic patterns and SARIMAX for time series forecasting to predict future trends, providing valuable insights for strategic planning.
             </p>
-          </div>
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
           </div>
         </div>
 
